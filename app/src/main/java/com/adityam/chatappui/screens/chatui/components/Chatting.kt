@@ -1,4 +1,4 @@
-package com.adityam.chatappui.screens.components
+package com.adityam.chatappui.screens.chatui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.items
@@ -28,8 +27,8 @@ import androidx.compose.ui.unit.sp
 import com.adityam.chatappui.R
 import com.adityam.chatappui.components.AppIcon
 import com.adityam.chatappui.components.AppText
-import com.adityam.chatappui.screens.domain.ChatModal
-import com.adityam.chatappui.screens.domain.chatModalList
+import com.adityam.chatappui.screens.chatui.domain.ChatModal
+import com.adityam.chatappui.screens.chatui.domain.chatModalList
 import com.adityam.chatappui.ui.theme.black_1a
 import com.adityam.chatappui.ui.theme.blue_30
 import com.adityam.chatappui.ui.theme.green_5a

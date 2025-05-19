@@ -1,4 +1,4 @@
-package com.adityam.chatappui.screens.components
+package com.adityam.chatappui.screens.instagramHome.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Spacer
@@ -7,18 +7,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.adityam.chatappui.ui.theme.line_gradient
+import com.adityam.chatappui.ui.theme.gray_54
 
 @Composable
-fun ChatLine(modifier: Modifier = Modifier) {
+fun InstaLine(modifier: Modifier = Modifier) {
 
-    Spacer(
-        modifier = Modifier
-            .background(
-                brush = line_gradient
-            )
-            .fillMaxWidth()
-            .height(1.7.dp)
-    )
-
+    Spacer(modifier = modifier.background(gray_54).fillMaxWidth().height(0.4.dp))
 }

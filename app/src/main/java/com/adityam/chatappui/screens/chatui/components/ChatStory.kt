@@ -1,4 +1,4 @@
-package com.adityam.chatappui.screens.components
+package com.adityam.chatappui.screens.chatui.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -10,7 +10,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
-import androidx.compose.ui.graphics.PaintingStyle.Companion.Stroke
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -18,8 +17,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.adityam.chatappui.components.AppIcon
 import com.adityam.chatappui.components.AppText
-import com.adityam.chatappui.screens.domain.Story
-import com.adityam.chatappui.screens.domain.storyData
+import com.adityam.chatappui.screens.chatui.domain.Story
+import com.adityam.chatappui.screens.chatui.domain.storyData
 import com.adityam.chatappui.ui.theme.interFont
 import com.adityam.chatappui.ui.theme.photo_gradient
 import com.adityam.chatappui.ui.theme.violet_a4

@@ -1,4 +1,4 @@
-package com.adityam.chatappui.screens.components
+package com.adityam.chatappui.screens.chatui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

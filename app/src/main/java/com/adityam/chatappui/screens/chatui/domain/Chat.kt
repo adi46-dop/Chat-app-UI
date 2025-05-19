@@ -1,4 +1,4 @@
-package com.adityam.chatappui.screens.domain
+package com.adityam.chatappui.screens.chatui.domain
 
 import androidx.annotation.DrawableRes
 import com.adityam.chatappui.R

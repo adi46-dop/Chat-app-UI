@@ -1,4 +1,4 @@
-package com.adityam.chatappui.screens.components
+package com.adityam.chatappui.screens.chatui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -67,6 +67,8 @@ fun ChartSearchBar(modifier: Modifier = Modifier) {
                     )
                 }
                 it.invoke()
+//                First, show a placeholder if the input is empty.
+            //   Then, always show the actual text input field UI by calling it.invoke()."
             }
         }
     }
